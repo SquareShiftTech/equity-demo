@@ -63,11 +63,11 @@
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2
     header_font_color: "#FFF"
     header_background_color: "#1A73E8"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+    conditional_formatting: [{type: along a scale..., value: '', background_color: "#1A73E8",
+        font_color: '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {steps: 6, constraints: {min: {type: minimum}, mid: {type: number,
                 value: 0}, max: {type: maximum}}, mirror: true, reverse: false, stepped: false}},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields: ''}]
     defaults_version: 1
     x_axis_gridlines: false
     y_axis_gridlines: true
@@ -152,11 +152,11 @@
         align: left
     header_font_color: "#fff"
     header_background_color: "#1A73E8"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+    conditional_formatting: [{type: along a scale..., value:  '', background_color: "#1A73E8",
+        font_color: '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {constraints: {min: {type: minimum}, mid: {type: number, value: 0},
               max: {type: maximum}}, mirror: true, reverse: false, stepped: false}},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields:  ''}]
     defaults_version: 1
     hidden_fields: [market_data.id]
     listen:
@@ -241,12 +241,12 @@
     series_cell_visualizations:
       market_data.market_cap_change_percentage_24h:
         is_active: true
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+    conditional_formatting: [{type: along a scale..., value:  '', background_color: "#1A73E8",
+        font_color:  '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 4a00499b-c0fe-4b15-a304-4083c07ff4c4, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields: ''}]
     defaults_version: 1
     hidden_fields: []
     column_order: [market_data.name, market_data.symbol, market_data.current_price,
@@ -459,21 +459,21 @@
     header_font_color: "#FFF"
     header_background_color: "#1A73E8"
     conditional_formatting: [{type: less than, value: 0, background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+        font_color:'', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}, {type: equal to, value: 0, background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+        strikethrough: false, fields:''}, {type: equal to, value: 0, background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}, {type: greater than, value: 0, background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+        strikethrough: false, fields:''}, {type: greater than, value: 0, background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: true, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields:''}]
     defaults_version: 1
     hidden_fields: []
     listen:
@@ -533,20 +533,20 @@
     header_font_color: "#FFF"
     header_background_color: "#1A73E8"
     conditional_formatting: [{type: less than, value: 0, background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+        font_color:'', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {constraints: {min: {type: minimum}, mid: {type: number, value: 0},
               max: {type: maximum}}, mirror: true, reverse: false, stepped: false}},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: equal
-          to, value: 0, background_color: "#1A73E8", font_color: !!null '', color_application: {
+        bold: false, italic: false, strikethrough: false, fields:''}, {type: equal
+          to, value: 0, background_color: "#1A73E8", font_color:'', color_application: {
           collection_id: google-theme, palette_id: google-theme-sequential-0, options: {
             constraints: {min: {type: minimum}, mid: {type: number, value: 0}, max: {
                 type: maximum}}, mirror: true, reverse: false, stepped: false}}, bold: false,
-        italic: false, strikethrough: false, fields: !!null ''}, {type: greater than,
-        value: 0, background_color: "#1A73E8", font_color: !!null '', color_application: {
+        italic: false, strikethrough: false, fields:''}, {type: greater than,
+        value: 0, background_color: "#1A73E8", font_color:'', color_application: {
           collection_id: google-theme, palette_id: google-theme-sequential-0, options: {
             constraints: {min: {type: minimum}, mid: {type: number, value: 0}, max: {
                 type: maximum}}, mirror: true, reverse: false, stepped: false}}, bold: true,
-        italic: false, strikethrough: false, fields: !!null ''}]
+        italic: false, strikethrough: false, fields:''}]
     defaults_version: 1
     hidden_fields: []
     listen:
@@ -644,11 +644,11 @@
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2
     header_font_color: "#FFF"
     header_background_color: "#1A73E8"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+    conditional_formatting: [{type: along a scale..., value:'', background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {steps: 6, constraints: {min: {type: minimum}, mid: {type: number,
                 value: 0}, max: {type: maximum}}, mirror: true, reverse: false, stepped: false}},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields:''}]
     defaults_version: 1
     x_axis_gridlines: false
     y_axis_gridlines: true
@@ -725,8 +725,8 @@
           - "#4ee807"
     header_font_color: "#FFF"
     header_background_color: "#7CB342"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+    conditional_formatting: [{type: along a scale..., value:'', background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {steps: 5, mirror: false}}, bold: false, italic: false, strikethrough: false,
         fields: [stock_info.52_week_change]}]
     x_axis_gridlines: false
@@ -823,8 +823,8 @@
           - "#42e80d"
     header_font_color: "#FFF"
     header_background_color: "#7CB342"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
+    conditional_formatting: [{type: along a scale..., value:'', background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0,
           options: {steps: 5, mirror: false}}, bold: false, italic: false, strikethrough: false,
         fields: [stock_info.52_week_change]}]
     x_axis_gridlines: false
@@ -911,12 +911,12 @@
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2
     header_font_color: "#fff"
     header_background_color: "#7CB342"
-    conditional_formatting: [{type: along a scale..., value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+    conditional_formatting: [{type: along a scale..., value:'', background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 4a00499b-c0fe-4b15-a304-4083c07ff4c4, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields:''}]
     defaults_version: 0
     listen:
       Coin Highlight: market_data.coin_highlight
@@ -1031,7 +1031,7 @@
       palette_id: google-theme-categorical-0
     conditional_formatting: [{type: greater than, value: 0, background_color: "#F9AB00",
         font_color: "#FFF", color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields:''}]
     defaults_version: 1
     listen: {}
     row: 2
@@ -1068,7 +1068,7 @@
       palette_id: google-theme-categorical-0
     conditional_formatting: [{type: greater than, value: 0, background_color: "#7CB342",
         font_color: "#FFF", color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields:''}]
     defaults_version: 1
     listen: {}
     row: 2
@@ -1105,11 +1105,11 @@
       collection_id: google-theme
       palette_id: google-theme-categorical-0
     conditional_formatting: [{type: greater than, value: 0, background_color: "#7CB342",
-        font_color: !!null '', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: less
+        font_color:'', color_application: {collection_id: google-theme, palette_id: google-theme-sequential-0},
+        bold: false, italic: false, strikethrough: false, fields:''}, {type: less
           than, value: 0, background_color: "#7CB342", font_color: "#FFF", color_application: {
           collection_id: google-theme, palette_id: google-theme-diverging-0}, bold: false,
-        italic: false, strikethrough: false, fields: !!null ''}]
+        italic: false, strikethrough: false, fields:''}]
     defaults_version: 1
     listen:
       Coin Highlight: market_data.coin_highlight

@@ -26,9 +26,9 @@
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     conditional_formatting: [{type: greater than, value: 0, background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+        font_color: '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields:  ''}]
     defaults_version: 1
     hidden_pivots: {}
     listen: {}
@@ -300,7 +300,7 @@
           palette_id: 4a00499b-c0fe-4b15-a304-4083c07ff4c4, options: {constraints: {
               min: {type: minimum}, mid: {type: number, value: 0}, max: {type: maximum}},
             mirror: true, reverse: false, stepped: false}}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields: ''}]
     hidden_fields: []
     hidden_points_if_no: []
     series_labels:

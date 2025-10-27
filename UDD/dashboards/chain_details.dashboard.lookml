@@ -74,10 +74,10 @@
     enable_conditional_formatting: true
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
-    conditional_formatting: [{type: not null, value: !!null '', background_color: "#0F9D58",
+    conditional_formatting: [{type: not null, value:  '', background_color: "#0F9D58",
         font_color: "#FFF", color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields: ''}]
     hidden_fields: [market_data.id]
     show_view_names: false
     show_row_numbers: true
@@ -118,10 +118,10 @@
     conditional_formatting_include_nulls: false
     custom_color: "#7CB342"
     comparison_label: All-time High
-    conditional_formatting: [{type: not null, value: !!null '', background_color: "#F4B400",
+    conditional_formatting: [{type: not null, value:  '', background_color: "#F4B400",
         font_color: "#FFF", color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields:''}]
     show_view_names: false
     defaults_version: 1
     hidden_fields: []
@@ -185,10 +185,10 @@
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
     comparison_label: All-time Low
-    conditional_formatting: [{type: not null, value: !!null '', background_color: "#4285F4",
+    conditional_formatting: [{type: not null, value: '', background_color: "#4285F4",
         font_color: "#FFF", color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields: ''}]
     hidden_fields: [market_data.id]
     show_view_names: false
     show_row_numbers: true
@@ -335,13 +335,13 @@
     conditional_formatting_include_nulls: false
     conditional_formatting: [{type: less than, value: 0, background_color: '', font_color: "#DB4437",
         color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: greater
+        bold: false, italic: false, strikethrough: false, fields:  ''}, {type: greater
           than, value: 0, background_color: '', font_color: "#0F9D58", color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: equal
-          to, value: 0, background_color: '', font_color: !!null '', color_application: {
+        bold: false, italic: false, strikethrough: false, fields:''}, {type: equal
+          to, value: 0, background_color: '', font_color: '', color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields:  ''}]
     show_view_names: false
     show_row_numbers: true
     transpose: false
@@ -382,13 +382,13 @@
     custom_color: "#FFF"
     conditional_formatting: [{type: less than, value: 0, background_color: '', font_color: "#DB4437",
         color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: greater
+        bold: false, italic: false, strikethrough: false, fields: ''}, {type: greater
           than, value: 0, background_color: '', font_color: "#0F9D58", color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: equal
-          to, value: 0, background_color: '', font_color: !!null '', color_application: {
+        bold: false, italic: false, strikethrough: false, fields: ''}, {type: equal
+          to, value: 0, background_color: '', font_color: '', color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields: ''}]
     show_view_names: false
     show_row_numbers: true
     transpose: false
@@ -428,13 +428,13 @@
     conditional_formatting_include_nulls: false
     conditional_formatting: [{type: less than, value: 0, background_color: '', font_color: "#DB4437",
         color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: greater
+        bold: false, italic: false, strikethrough: false, fields: ''}, {type: greater
           than, value: 0, background_color: '', font_color: "#0F9D58", color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}, {type: equal
-          to, value: 0, background_color: '', font_color: !!null '', color_application: {
+        bold: false, italic: false, strikethrough: false, fields: ''}, {type: equal
+          to, value: 0, background_color: '', font_color: '', color_application: {
           collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2, palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab},
-        bold: false, italic: false, strikethrough: false, fields: !!null ''}]
+        bold: false, italic: false, strikethrough: false, fields: ''}]
     show_view_names: false
     show_row_numbers: true
     transpose: false
@@ -643,10 +643,10 @@
     enable_conditional_formatting: true
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
-    conditional_formatting: [{type: not null, value: !!null '', background_color: "#DB4437",
+    conditional_formatting: [{type: not null, value: '', background_color: "#DB4437",
         font_color: "#FFF", color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields: ''}]
     hidden_fields: [market_data.id]
     show_view_names: false
     show_row_numbers: true

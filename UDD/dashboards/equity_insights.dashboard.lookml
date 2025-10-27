@@ -887,10 +887,10 @@
     enable_conditional_formatting: true
     conditional_formatting_include_totals: false
     conditional_formatting_include_nulls: false
-    conditional_formatting: [{type: equal to, value: !!null '', background_color: "#1A73E8",
-        font_color: !!null '', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
+    conditional_formatting: [{type: equal to, value:'', background_color: "#1A73E8",
+        font_color:'', color_application: {collection_id: 7c56cc21-66e4-41c9-81ce-a60e1c3967b2,
           palette_id: 56d0c358-10a0-4fd6-aa0b-b117bef527ab}, bold: false, italic: false,
-        strikethrough: false, fields: !!null ''}]
+        strikethrough: false, fields:''}]
     x_axis_gridlines: false
     y_axis_gridlines: true
     show_y_axis_labels: true
